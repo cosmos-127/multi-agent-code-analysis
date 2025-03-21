@@ -1,0 +1,20 @@
+fastapi 
+uvicorn
+streamlit
+python-dotenv
+
+# DB Production - For using PostgreSQL,
+sqlalchemy 
+alembic 
+# almebic helps in Version Control for Database Schema & Handles Database Schema Updates
+psycopg2-binary 
+asyncpg
+
+
+# DB Testing - For SQLite (if testing locally)
+sqlalchemy 
+aiosqlite
+
+
+# this helps in cloning git repos
+gitpython
