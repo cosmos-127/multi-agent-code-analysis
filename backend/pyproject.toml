@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multiagent-backend"
+version = "0.1.0"
+description = "Multi-Agent Code Analysis Backend"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "streamlit",
+    "python-dotenv",
+    
+    # Database
+    "sqlalchemy",
+    "alembic",
+    "psycopg2-binary",
+    "asyncpg",
+
+    # Agentic Architecture
+    "langchain",
+    "langgraph",
+    "crewai",
+    "openai",
+    "pydantic",
+    "langchain-openai",
+
+    # Git Handling
+    "gitpython"
+]
+
+[tool.setuptools]
+packages = ["backend"]
+package-dir = {"" = "src"}

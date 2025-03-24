@@ -1,0 +1,47 @@
+/* Page container */
+.block-container {
+    max-width: 750px;
+    padding-top: 50px;
+    padding-bottom: 300px;
+}
+
+/* Title styling */
+h1 {
+    font-size: 30px !important;
+    font-weight: bold !important;
+    padding-bottom: 6px !important;
+}
+
+/* Subheader styling */
+h2,
+h3,
+h4 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    margin-top: 4px !important;
+    margin-bottom: 8px !important;
+}
+
+/* Streamlit Button styling */
+.stButton>button {
+    width: 100% !important;
+    font-weight: bold !important;
+    border-radius: 6px !important;
+    background: linear-gradient(135deg, #1e88e5, #1565c0) !important;
+    color: white !important;
+    border: none !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.stButton>button:hover {
+    background: linear-gradient(135deg, #1565c0, #0d47a1) !important;
+    transform: scale(1.02) !important;
+}
+
+/* Custom thin divider with reduced spacing */
+.custom-divider {
+    border: none;
+    height: 1px;
+    background-color: #444;
+    margin: 10px 0 !important;
+}

@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+streamlit
+python-dotenv
+sqlalchemy
+alembic
+psycopg2-binary
+asyncpg
+langchain
+langgraph
+crewai
+openai
+pydantic
+langchain-openai
+gitpython

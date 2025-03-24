@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from backend.database import engine, Base
+from backend.handlers import git_summary_handler
 
 
 import asyncio
@@ -16,9 +17,10 @@ async def startup():
 async def read_root():
     return {"message": "FastAPI Backend is running!"}
 
+app.include_router(git_summary_handler.router, prefix="/api")
+
 @app.get("/analyze")
 async def analyze_code():
     return {"status": "Analysis Started"}
 
 # Run with: uvicorn main:app --reload
-

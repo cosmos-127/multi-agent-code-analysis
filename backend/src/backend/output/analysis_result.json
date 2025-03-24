@@ -1,0 +1,66 @@
+{
+    "project_architecture": "Monolithic",
+    "frameworks": [
+        "React",
+        "@testing-library/react",
+        "gsap",
+        "react",
+        "@testing-library/user-event",
+        "web-vitals",
+        "react-dom",
+        "@testing-library/jest-dom",
+        "locomotive-scroll",
+        "tailwindcss",
+        "react-scripts"
+    ],
+    "total_files": 7,
+    "total_folders": 12,
+    "language_usage": {
+        "JavaScript": "42.86 %",
+        "HTML": "14.29 %",
+        "CSS": "42.86 %"
+    },
+    "git_info": {
+        "default_branch": "main",
+        "repository_size": "16.80 MiB",
+        "number_of_releases": 0,
+        "repo_first_commit": "2024-04-16 17:37:53 +0530",
+        "repo_age": "0 years, 11 months old",
+        "branch_count": 3,
+        "recent_commits": [
+            "a823aed - image changes",
+            "bc8e5b9 - tweaking animation",
+            "57c61f5 - optimized image sizes",
+            "ed4dc60 - regular update for sile structure and fonts",
+            "80f98c8 - some serious changes :)"
+        ],
+        "last_commit_date": "April 23, 2024",
+        "commit_count": 7,
+        "total_contributors": 1,
+        "most_active_contributor": "cosmos-127",
+        "longest_inactive_period_for_repository": "4 Days",
+        "last_5_contributors": [
+            "cosmos-127"
+        ],
+        "top_5_modified_directories": [
+            "src",
+            "src/components",
+            "public",
+            "src/images/projects/portfolio",
+            "src/images"
+        ],
+        "largest_file": "src/images/projects/portfolio/portfolio.png",
+        "size_bytes": 851025,
+        "average_file_size": "103.88 KB",
+        "most_frequent_extension": ".jsx"
+    },
+    "security_info": {
+        "license": null,
+        "potential_secrets": []
+    },
+    "documentation": {
+        "has_readme": true,
+        "has_docs": false,
+        "has_tests": false
+    }
+}

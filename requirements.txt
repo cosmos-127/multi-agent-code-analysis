@@ -10,10 +10,15 @@ alembic
 psycopg2-binary 
 asyncpg
 
+# Agentic Architecture
+langchain 
+langgraph 
+crewai 
+openai 
+pydantic
+langchain-openai
 
-# DB Testing - For SQLite (if testing locally)
-sqlalchemy 
-aiosqlite
+
 
 
 # this helps in cloning git repos
